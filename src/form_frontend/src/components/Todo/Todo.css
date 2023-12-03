@@ -1,0 +1,112 @@
+#todoList{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#todol{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#todo{
+    width: 65%;
+    height: 100%;
+}
+
+
+#todo1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    margin: 10px 0 10px 0;
+}
+
+#tleft, #tright {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 97vh;
+}
+
+header {
+    font-size: 30px;
+    height: 50px;
+    font-weight: 700;
+}
+
+#pending {
+    height: calc(97vh - 110px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#completed {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#plist, #clist {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    height: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#plist p {
+    width: 90%;
+}
+#plist input {
+    width: 10% !important;
+    height: 15px;
+}
+
+#add {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+
+#add input {
+    width: 85%;
+    border-radius: 10px;
+}
+
+#todo button {
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#todo button:hover {
+    background-color: white;
+}
+
+#completed {
+    margin: 10px;
+}
